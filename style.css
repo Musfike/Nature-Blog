@@ -1,0 +1,10 @@
+      /* Universal */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+     /* Navbar */
+header  nav, header>nav>div, ul{
+    display: flex;
+}
+
