@@ -1,10 +1,66 @@
-      /* Universal */
-*{
-    margin: 0px;
-    padding: 0px;
-}
-     /* Navbar */
-header  nav, header>nav>div, ul{
-    display: flex;
+/* Universal */
+* {
+  margin: 0px;
+  padding: 0px;
+  max-width: 1440px;
 }
 
+/* Header section */
+
+header {
+  background-color: rgb(102, 219, 87);
+}
+
+
+.nav-img{
+    width: 40px;
+    max-height: 50px;
+}
+ .nav-title{
+    padding-top: 12px;
+ }
+
+header > nav,
+.nav-logo,
+.nav-links {
+  display: flex;
+}
+
+nav {
+  justify-content: space-between;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+nav a{
+    text-decoration: none;
+    color:black;
+}
+nav a:visited{
+    color: whitesmoke;
+}
+nav a:hover{
+    color: aquamarine;
+}
+nav a>button:hover{
+    cursor: pointer;
+    background-color: rgb(140, 201, 193);
+}
+nav button{
+    background-color: rgb(151, 197, 140);
+    height: 30px;
+    width: 60px;
+    margin-bottom: 15px;
+}
+.nav-btn-li{
+    margin-top: 10px;
+}
+.nav-btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    border-style: none;
+}
+            /* Nav end */
